@@ -14,6 +14,12 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <!-- Font Import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap" rel="stylesheet">
+
+
     <!-- Leaflet CSS and JS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
@@ -32,18 +38,22 @@
                 <div class="date-place" style="display: flex; align-items: center;">
                     <img src="assets/date.png" style="height: 40px; width: 40px;" alt="date">
 
-                    <h1>
+                    <h1 style="font-size: 50px;">
                         11-12 July, 2024
                     </h1>
                 </div>
 
                 <div class="time" style="display: flex; align-items: center;">
                     <img src="assets/time.png" style="height: 40px; width: 40px;" alt="date">
-                    <p>12 P.M. Onwards</p>
+                    <p style="font-size: 30px;">12 P.M. Onwards</p>
                 </div>
 
                 <div class="explanatory-text">
-                    <h1>Step into <span>Chelsea</span> and <span>Lil's</span> Summer Stop Sale</h1>
+                    <h1 style="font-size: 80px;">
+                        Step into <span>Chelsea</span> and <span>Lil's</span>
+                        <br>
+                        Summer Stoop Sale
+                    </h1>
                 </div>
 
             </div>
@@ -60,25 +70,58 @@
         </button>
     </section>
 
-    <section id="map-section">
+    <!-- <section id="map-section">
         <div id="map-wrapper" style="display: flex; justify-content: space-around; gap: 8rem;">
             <div class="text-section">
                 <h1 style="font-size: 60px;">
                     Generals, The treasure is here.
                 </h1>
             </div>
+            <img src="assets/arthur-table-sword.png" style="height: 200px; width: 200px;" alt="arthur-table-sword">
             <div id="map" class="section-content">
+
                 <h1>Map Section</h1>
+            </div>
+            
+        </div>
+    </section> -->
+    <!-- <section id="map-section">
+        <div style="display: flex; justify-content: space-around; align-items: center; gap: 8rem; flex-direction: row-reverse;">
+            <div id="map-wrapper" style="position: relative; width: 600px; height: 600px;">
+                
+                <div id="map" class="section-content"></div>
+                <img src="assets/arthur-table-sword_2.png" style="width: 100%; height: 100%;" alt="arthur-table-sword">
+            </div>
+            <div class="text-section">
+                <h1 style="font-size: 60px; text-align: center;">
+                    Generals, The treasure is here.
+                </h1>
+            </div>
+        </div>
+        
+    </section> -->
+    <section id="map-section">
+        <div
+            style="display: flex; justify-content: space-around; align-items: center; gap: 8rem; flex-direction: row-reverse;">
+            <div id="map-wrapper" style="position: relative; width: 750px; height: 750px;">
+                <div id="map" class="section-content"></div>
+                <img src="assets/arthur-table-sword_2.png" style="width: 100%; height: 100%;" alt="arthur-table-sword">
+            </div>
+            <div class="text-section">
+                <h1 style="font-size: 60px; text-align: center;">
+                    Generals, The treasure is here.
+                </h1>
             </div>
         </div>
     </section>
+
 
 
     <section id="decoration">
         <div class="section-content">
             <div class="decoration-pic-text" style="display: flex; align-items: center; justify-content: space-around;">
                 <img src="./assets/decoration.png" style="width: 650px; height: 678px;" alt="decoration">
-                <h1 style="color: black;">Decorate your house.</h1>
+                <h1 style="color: black; font-size: 80px;">Decorate your house.</h1>
             </div>
         </div>
     </section>
@@ -86,25 +129,25 @@
 
     <section id="attraction">
         <div style="display: flex; flex-direction: column; justify-content: center; gap: 20px;">
-            <h1 style="font-size: 50px; margin-top: 0px; padding-top: 0px;">
+            <h1 style="font-size: 80px; margin-top: 0px; padding-top: 0px;">
                 Attractions
             </h1>
             <div class="product-grid">
                 <div class="product-card" style="background-color: #40DDFF;">
                     <img src="/assets/clothes.png" alt="clothes" class="product-image">
-                    <h2>Clothes</h2>
+                    <h2 style="font-size: 30px;">Clothes</h2>
                 </div>
                 <div class="product-card" style="background-color: #D39AFF;">
                     <img src="/assets/shoes.png" alt="shoes" class="product-image">
-                    <h2>Shoes</h2>
+                    <h2 style="font-size: 30px;">Shoes</h2>
                 </div>
                 <div class="product-card" style="background-color: #FFB6B6;">
                     <img src="assets/tchotchkes.png" alt="tchotchkes" class="product-image">
-                    <h2>Tchotchkes</h2>
+                    <h2 style="font-size: 30px;">Tchotchkes</h2>
                 </div>
                 <div class="product-card" style="background-color: #BBFFB0;">
                     <img src="assets/home-goods.png" alt="home-goods" class="product-image">
-                    <h2>Home Goods</h2>
+                    <h2 style="font-size: 30px;">Home Goods</h2>
                 </div>
             </div>
         </div>
