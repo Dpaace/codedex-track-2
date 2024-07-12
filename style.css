@@ -104,16 +104,16 @@ section {
     border: 5px solid #000;
 }
 
-#washing {
-    background-color: rgba(0, 0, 128, 0.5);
+#boring {
+    background-color:rgba(238, 254, 254, 0.578);
 }
 
 #decoration {
-    background-color: rgba(187, 247, 247, 0.578);
+    background-color: white;
 }
 
 #attraction {
-    background-color: #FFE5E5;
+    background-color: #f8f7f7;
     text-align: center;
     justify-content: center;
 }
@@ -133,7 +133,6 @@ section {
     height: 350px;
     width: 300px;
     padding: 20px;
-    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -141,10 +140,11 @@ section {
     align-items: center;
 }
 
-.product-image {
+.product-image-png {
     border-radius: 30px;
-    width: 80%;
-    height: 250px;
+    width: 57%;
+    height: 195px;
+
 }
 
 .product-card h3 {
