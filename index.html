@@ -22,12 +22,44 @@
 </head>
 
 <body>
-    <section id="main">
+    <section id="main" style="position: relative;">
         <video autoplay loop muted>
             <source src="assets/landing_vid.mp4" type="video/mp4">
         </video>
-        <div class="section-content">
-            <h1>This is the Hackathon Competition.</h1>
+        <div class="overlay"></div>
+        <div class="section-content" style="display: flex;">
+            <div class="date-content">
+                <div class="date-place" style="display: flex; align-items: center;">
+                    <img src="assets/date.png" style="height: 40px; width: 40px;" alt="date">
+
+                    <h1>
+                        11-12 July, 2024
+                    </h1>
+                </div>
+                
+                <div class="time">
+                    <p>12 P.M. Onwards</p>
+                </div>
+
+                <div class="explanatory-text">
+                    <h1>Step into <span>Chelsea</span> and <span>Lil's</span> Summer Stop Sale</h1></div>
+                <div>
+                    <!-- <img src="assets/intro-sale.png" style="height: 450px;" alt="intro"> -->
+                </div>
+            </div>
+
+            <!-- <div style="">
+               
+                <div>
+                    <h1>
+                        Step into Chelsea and Lil's
+                        <br>
+                        Summer Stoop Sale!
+                    </h1>
+                </div>
+            </div> -->
+
+
         </div>
         <audio id="backgroundAudio" loop>
             <source src="assets/landing_aud.mp3" type="audio/mp3">
@@ -36,9 +68,12 @@
     </section>
 
     <section id="map-section">
-        <div id="map" class="section-content">
-            <h1>Map Section</h1>
-        </div>`
+        <div id="map-wrapper">
+            <div class="text-section"></div>
+            <div id="map" class="section-content">
+                <h1>Map Section</h1>
+            </div>
+        </div>
     </section>
 
     <section id="washing">

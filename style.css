@@ -11,8 +11,8 @@ section {
     width: 100vw;
     height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     position: relative;
     text-align: center;
 }
@@ -25,6 +25,47 @@ section {
     height: 100%;
     object-fit: cover;
     z-index: -1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100dvw;
+  height: 100dvh;
+  background-color: #14141520;
+}
+
+.date-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+
+.date-content .date-place {
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem 1.75rem;
+    background-color: #ffffff60;
+    border: 1px solid white;
+    border-radius: 14px;
+    backdrop-filter: blur(4px);
+}
+.date-content .date-place h1 {
+    font-size: 2rem;
+}
+.explanatory-text {
+    width: 50%;
+}
+.explanatory-text h1 {
+    font-size: 3rem;
+    stroke: #14141520;
+}
+.time {
+    font-size: 1rem;
 }
 
 #audioControl {
@@ -43,8 +84,19 @@ section {
     background-color: rgba(0, 128, 0, 0.5);
 }
 
+#map-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 1rem;
+    width: 75%;
+}
+
+#map-section .text-section {
+    flex: 1;
+}
+
 #map {
-    left: 300px;
     width: 400px;
     height: 400px;
     border-radius: 50%;
@@ -68,4 +120,5 @@ section {
     z-index: 1;
     color: white;
     font-size: 2em;
+    width: 100%;
 }
