@@ -81,7 +81,7 @@ section {
 }
 
 #map-section {
-    background-color: rgba(0, 128, 0, 0.5);
+    background-color: #fff;
 }
 
 #map-wrapper {
@@ -109,11 +109,11 @@ section {
 }
 
 #decoration {
-    background-color: #ffffffff
+    background-color: rgba(187, 247, 247, 0.578);
 }
 
 #attraction {
-    background-color: rgba(128, 128, 0, 0.5);
+    background-color: #FFE5E5;
     text-align: center;
     justify-content: center;
 }
@@ -130,18 +130,20 @@ section {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    height: 400px;
+    height: 350px;
     width: 300px;
     padding: 20px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 30px;
+    align-items: center;
 }
 
 .product-image {
     border-radius: 30px;
-    width: 100%;
+    width: 80%;
     height: 250px;
 }
 
